@@ -40,6 +40,32 @@ main button:hover {
   color: white;
 }
 
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1em;
+  padding: 4em 0em 2em 0em;
+}
+
+footer .icon-btn {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+footer .icon-btn:hover {
+  color: #e882e8;
+  border-color: #e882e8;
+}
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
