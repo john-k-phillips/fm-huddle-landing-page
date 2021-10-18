@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,400;1,600&display=swap");
+header {
+  text-align: left;
+}
+
+header img {
+  width: 40%;
+  margin: 5vh 0 9vh 0;
+}
+
 img {
   max-width: 100%;
 }
@@ -11,6 +20,13 @@ img {
 }
 
 body {
-  background-color: #674baf;
+  background: url("/images/bg-mobile.svg") no-repeat, #674baf;
+  color: white;
+  text-align: center;
+}
+
+header, main, footer {
+  max-width: 80%;
+  margin: auto;
 }
 /*# sourceMappingURL=styles.css.map */
