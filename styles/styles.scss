@@ -25,3 +25,10 @@ header, main, footer {
 h1 {
     font-family: 'Poppins', sans-serif;
 }
+
+@media screen and (min-width: 1440px) {
+    body {
+        background: url('/images/bg-desktop.svg') no-repeat, $clr-violet;
+        background-size: cover;
+    }
+}

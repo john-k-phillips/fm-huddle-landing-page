@@ -33,11 +33,39 @@ main button {
   padding: 1em 6em;
   font-family: 'Open Sans', sans-serif;
   color: #674baf;
+  cursor: pointer;
 }
 
 main button:hover {
   background-color: #e882e8;
   color: white;
+}
+
+@media screen and (min-width: 1440px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 4em;
+    text-align: left;
+  }
+  main section:first-child {
+    width: 150%;
+  }
+  main h1 {
+    font-size: 2.3em;
+    margin-top: 1em;
+  }
+  main p {
+    font-size: 1em;
+  }
+  main button {
+    padding: 1em 4em;
+    font-size: 1em;
+  }
 }
 
 footer {
@@ -59,11 +87,26 @@ footer .icon-btn {
   height: 32px;
   border-radius: 50%;
   border: 1px solid white;
+  cursor: pointer;
 }
 
 footer .icon-btn:hover {
   color: #e882e8;
   border-color: #e882e8;
+}
+
+@media screen and (min-width: 1440px) {
+  footer {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-bottom: 0;
+    font-size: 1.2em;
+  }
+  footer .icon-btn {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 *, *::after, *::before {
@@ -87,5 +130,12 @@ header, main, footer {
 
 h1 {
   font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background: url("/images/bg-desktop.svg") no-repeat, #674baf;
+    background-size: cover;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

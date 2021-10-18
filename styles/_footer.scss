@@ -11,9 +11,23 @@ footer {
 
         border-radius: 50%;
         border: 1px solid white;
+
+        cursor: pointer;
         &:hover {
             color: $clr-soft-magenta;
             border-color: $clr-soft-magenta;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    footer {
+        justify-content: flex-end;
+        padding-bottom: 0;
+        font-size: 1.2em;
+        .icon-btn {
+            width: 40px;
+            height: 40px;
         }
     }
 }
