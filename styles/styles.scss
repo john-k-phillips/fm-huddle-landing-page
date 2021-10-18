@@ -14,9 +14,14 @@ body {
     background: url('/images/bg-mobile.svg') no-repeat, $clr-violet;
     color: white;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header, main, footer {
     max-width: 80%;
     margin: auto;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
 }
