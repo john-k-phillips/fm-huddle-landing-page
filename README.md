@@ -38,7 +38,7 @@ Your users should be able to:
   </ul>
 <h3>The Bad</h3>
   <ul>
-    <li>In regards to the design, there are a few white-space issues.</li>
+    <li>The HTML is not accessible, this is something I am working on and will pay closer attention in my next project.</li>
   </ul>
 
 <!-- UPDATE ENTIRE SECTION -->
